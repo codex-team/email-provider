@@ -23,5 +23,8 @@
     "parse-domain": "^2.1.2",
     "request": "^2.88.0"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "bundleDependencies": [
+    "freemail"
+  ]
 }

@@ -37,7 +37,8 @@ let email = 'test@google.com';
 
 emailProvider.get(email)
      .then( service => {
-       console.log(service);
+       console.log(service.name); // Gmail
+       console.log(service.url); // https://googlemail.com
      })
      .catch( error => {
        console.log('Email provider was not reached:', error);

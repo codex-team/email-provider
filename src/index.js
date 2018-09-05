@@ -38,7 +38,7 @@ class ProviderDetector {
   /**
    * Start to extract Provider by hostname
    * @param {string} email
-   * @return {Promise<string>}
+   * @return {Promise.<{name: string, url: string}>}
    */
   async get(email) {
     const host = this.extractHost(email);
