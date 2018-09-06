@@ -18,7 +18,7 @@ It can be useful for improving User Experience after entering an email address:
 2) You have sent confirmation email to him
 3) On the same place, you can show `Open Gmail|Yahoo|Яндекс|etc` button  
 
-![](assets/demo.mp4) 
+![](assets/demo.gif) 
 
 ## How it words
 
