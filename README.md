@@ -1,5 +1,7 @@
 # Email provider service detector 
 
+![](https://flat.badgen.net/npm/v/email-provider)
+
 Detect Provider's Service name by email address
 
 ```js
@@ -7,6 +9,16 @@ team@youtube.com -> { name: 'Gmail', url: 'https://googlemail.com' }
 test@kinopoisk.ru -> { name: 'Яндекс', url: 'https://yandex.ru' }
 
 ```
+
+## Why
+
+It can be useful for improving User Experience after entering an email address:
+ 
+1) User enters an email address
+2) You have sent confirmation email to him
+3) On the same place, you can show `Open Gmail|Yahoo|Яндекс|etc` button  
+
+![](assets/demo.mp4) 
 
 ## How it words
 
@@ -45,3 +57,6 @@ emailProvider.get(email)
      })
 ```
 
+## License 
+
+MIT
